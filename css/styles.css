@@ -1,0 +1,66 @@
+
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    background:#FDEF58;
+    height: 250px;
+}
+
+header .contenedor-img img{
+
+    width: 150px;
+    margin: 15px 0 0 100px;
+
+}
+main {
+    background: #ebebeb;
+    height: 400px;
+    position: relative;
+    bottom: 25px;
+}
+
+main .contenedor-main {
+    width: 500px;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    background: #fff;
+}
+
+main .contenedor-main {
+    text-align: center;
+    font-size: 15px;
+}
+
+main .contenedor-main .contenedor-h1 {
+    font-size: 18px;
+   /*  margin-top: 50px; */
+}
+
+main .contenedor-main form div {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+main .contenedor-main form div 
+
+
+main .contenedor-captcha {
+    text-align: center;
+}
+
+
+footer {
+    background: #fff;
+    height: 100px;
+
+}
+
+footer div p {
+    display: block;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
