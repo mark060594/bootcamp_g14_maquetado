@@ -12,6 +12,7 @@ body {
 
 /* HEADER */
 
+
 header {
     width: 100%;
     min-height: 700px;
@@ -20,15 +21,28 @@ header {
     background-attachment: fixed;
     background-position: 0 center;
     background-repeat: no-repeat;
-    opacity: 1;
+    position: relative;
     
 }
+
+header:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
 
 header .contenedor-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
+    position: relative;
 
 }
 
@@ -77,9 +91,10 @@ header .contenedor-texto {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 60%;
     margin:auto;
     flex-direction: column;
+    position: relative;
 }
 
 header .contenedor-texto .texto {
@@ -97,6 +112,7 @@ header .contenedor-texto .texto h1{
 header .contenedor-texto .texto h2 {
     margin-bottom: 20px;
     font-size: 25px;
+    font-weight: 500;
     
 }
 
@@ -110,6 +126,7 @@ header .contenedor-texto .contenedor-form  {
 header .contenedor-texto .contenedor-form h3 {
 
     margin-bottom: 30px;
+    font-weight: 500;
 
 }
 
@@ -120,6 +137,8 @@ header .contenedor-texto .contenedor-form input {
     outline: none;
     border:none;
     font-size: 18px;
+    margin-right: 0;
+    border: 1px solid #fff;
 
 }
 
@@ -133,6 +152,8 @@ header .contenedor-texto .contenedor-form button {
     cursor: pointer;
     color: #fff;
     font-size: 18px;
+    margin-left: 0;
+    border-left: 5px solid #E50914;
 }
 
 header .contenedor-texto .contenedor-form button:hover {
@@ -144,87 +165,13 @@ header .contenedor-texto .contenedor-form button:hover {
 
 main {
     background: #000;
-    /* border-top: 15px solid #222222; */
 }
 /* Estilos TV */
-main .contenedor-tv {
-    display: flex;
-    max-width: 1000px;
-    margin: auto;
-    background: #000;
-   /*  border-top: 15px solid #222222; */
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
-    border-top: 15px solid #222222;
-
-
-}
-
-main .contenedor-tv .texto {
-
-    text-align: center;
-    color: #fff;
-
-}
-
-main .contenedor-tv .texto h3 {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-main .contenedor-tv .texto p {
-    font-size: 20px;
-}
-
-main .contenedor-tv .contenedor-img img {
-    width: 500px; 
-}
-
-/* Estilos Mobile*/
-
-main .contenedor-mobile {
-    display: flex;
-    max-width: 1000px;
-    margin: auto;
-    background: #000;
-   /*  border-top: 15px solid #222222; */
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
-    border-top: 15px solid #222222;
-
-
-}
-
-main .contenedor-mobile .texto {
-
-    text-align: center;
-    color: #fff;
-
-}
-
-main .contenedor-mobile .texto h3 {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-main .contenedor-mobile .texto p {
-    font-size: 20px;
-}
-
-main .contenedor-mobile .contenedor-img img {
-    width: 500px; 
-}
-
-/* DEVICE */
-
 main .contenedor-device {
     display: flex;
     max-width: 1000px;
     margin: auto;
     background: #000;
-   /*  border-top: 15px solid #222222; */
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
@@ -253,14 +200,83 @@ main .contenedor-device .contenedor-img img {
     width: 500px; 
 }
 
-/* BOY */
+/* Estilos Mobile*/
 
-main .contenedor-boy {
+/* main .contenedor-mobile {
     display: flex;
     max-width: 1000px;
     margin: auto;
     background: #000;
-   /*  border-top: 15px solid #222222; */
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-top: 15px solid #222222;
+
+
+}
+
+main .contenedor-mobile .texto {
+
+    text-align: center;
+    color: #fff;
+
+}
+
+main .contenedor-mobile .texto h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+main .contenedor-mobile .texto p {
+    font-size: 20px;
+}
+
+main .contenedor-mobile .contenedor-img img {
+    width: 500px; 
+} */
+
+/* DEVICE */
+
+/* main .contenedor-device {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-top: 15px solid #222222;
+
+
+}
+
+main .contenedor-device .texto {
+
+    text-align: center;
+    color: #fff;
+
+}
+
+main .contenedor-device .texto h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+main .contenedor-device .texto p {
+    font-size: 20px;
+}
+
+main .contenedor-device .contenedor-img img {
+    width: 500px; 
+} */
+
+/* BOY */
+
+/* main .contenedor-boy {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: #000;
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
@@ -288,3 +304,4 @@ main .contenedor-boy .texto p {
 main .contenedor-boy .contenedor-img img {
     width: 500px; 
 }
+ */
