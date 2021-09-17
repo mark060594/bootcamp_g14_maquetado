@@ -1,0 +1,9 @@
+.nav-conteiner {
+
+   /*  display: flex; */
+    justify-content: center;
+}
+
+body {
+    background: chartreuse;
+}
