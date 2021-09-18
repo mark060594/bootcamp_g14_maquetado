@@ -5,5 +5,55 @@
 }
 
 body {
-    background: chartreuse;
+    background: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.general-conteiner {
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.general-conteiner  .main-conteiner .row-conteiner {
+    margin: 20px;
+    padding: 15px;
+}
+
+.general-conteiner  .main-conteiner .row-conteiner .conteiner1 {
+    background: #9B586F;
+    border-radius: 5px;
+}
+
+.general-conteiner  .main-conteiner .row-conteiner  .name-conteiner{
+   padding: 10px;
+}
+
+.general-conteiner  .main-conteiner .row-conteiner  .name-conteiner .img-conteiner {
+    width: 70px;
+}
+
+.general-conteiner .main-conteiner .row-conteiner  .name-conteiner .img-conteiner img {
+    width: 100%;
+    border-radius: 50%;
 }
