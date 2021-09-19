@@ -11,3 +11,41 @@ body {
 
     justify-content: center;
 }
+
+
+.general-conteiner {
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.general-conteiner .row-conteiner {
+
+    margin: 30px 0;
+    background: #F5E9A9;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.general-conteiner .row-conteiner button {
+
+    display: block;
+    margin: auto;
+    width: 30%;
+
+}
+
+
+/* Media Querys */
+
+
+@media (max-width: 576px) {
+
+    .general-conteiner .row-conteiner .form-conteiner {
+        width: 80%;
+    }
+
+
+
+  
+}
